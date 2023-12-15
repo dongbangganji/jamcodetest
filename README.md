@@ -55,20 +55,7 @@
       Host: http://localhost:8001
       Content-type: multipart/form-data
       ```
-    - Parameter
-        - |key| value         | required |설명|
-                |------------------|---------------|----------|---|
-          | solution_type    | FITNESS       | 선택 | DIET,FITNESS                         |
-          | lifestyle_tags[] | enough_money  | 필수 | enough_time,strong_will,enough_money |
-          | lifestyle_tags[] | strong_will  | 필수 | enough_time,strong_will,enough_money |
-    - Response
-        - | key       |value| 설명                                                                                                           |
-                      |-----------|--------------|--------------------------------------------------------------------------------------------------------------|
-          | result    | true      | true,false                                                                                                   |
-          | code      | 200 | 200,400                                                                                                      |
-          | msg       | "The selected lifestyle_tags.1 is invalid." | 400 일시 에러 메시지 출력                                                                                             |
-          | recommend | Crossfit  | Intermittent Fasting,<br/>LCHF,<br/>Crossfit,<br/>Cardio Exercise,<br/>Strength,<br/>Spinning,<br/>not_found |
-
+    ![img55.png](readmeImg/img55.png) 
 ---
 
 ## test코드 실행 방법
