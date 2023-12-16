@@ -24,7 +24,7 @@ class personalTrainerController extends Controller
         $validator = Validator::make($request->all(), [
             'solution_type' => 'in:DIET,FITNESS',
             'lifestyle_tags' => 'required|array|min:1',
-            'lifestyle_tags.*' => 'in:enough_money,strong_will,enough_time,enough_life',
+            'lifestyle_tags.*' => 'in:enough_money,strong_will,enough_time',
         ]);
         if ($validator->fails()) {
             return $this->set_fails_msg($validator->errors()->first());
