@@ -56,6 +56,7 @@
       Content-type: multipart/form-data
       ```
     ![img55.png](readmeImg/img55.png) 
+    ![img66.png](readmeImg/img66.png)
 ---
 
 ## test코드 실행 방법
